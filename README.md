@@ -53,14 +53,21 @@ I'm an AI Engineer at **AZENROB** and an MSc student in **Machine Learning at Ba
 
 ## Featured work
 
-### 🛰️ Flood detection from satellite imagery
-A research project combining Sentinel-1 SAR imagery and deep-learning segmentation to identify flooded areas, with a prototype that overlays flood predictions on road networks to explore evacuation routing.
+### 🛰️ [Flood detection and route planning](projects/flood-detection/)
 
-- **Model evaluation:** mIoU **0.677** · F1 score **0.807** on the evaluated test chips
-- **Tools:** Python, PyTorch, U-Net, Sentinel-1, OpenStreetMap, Dijkstra's algorithm
-- **Focus:** Geospatial computer vision and decision-support prototypes
+From satellite pixels to road-network analysis: a **PyTorch U-Net** segments flooding in two-band Sentinel-1 SAR imagery, then a geospatial pipeline overlays predictions on **OpenStreetMap** roads for **Dijkstra / A\*** route exploration.
 
-> This is a research prototype, not a guarantee that a generated evacuation route is safe.
+| Flood IoU | F1 / Dice | Precision | Recall | Test chips |
+| ---: | ---: | ---: | ---: | ---: |
+| **0.6766** | **0.8071** | 0.7770 | 0.8396 | 66 |
+
+Scores pool valid pixels from the saved test evaluation. Validation and test both include Spain; the project documents this evaluation limitation.
+
+[Explore the code and setup](projects/flood-detection/) · [Inspect the evaluation](projects/flood-detection/reports/evaluation_results.json) · [Read the method and limitations](projects/flood-detection/reports/METHODS.md)
+
+![Flood segmentation evaluation](projects/flood-detection/reports/figures/evaluation.svg)
+
+Research prototype; generated routes have not been validated for emergency navigation.
 
 ### 📊 Operational data analytics
 Experience analyzing operational data with PostgreSQL and building Power BI dashboards to make customer and business information easier to explore.
@@ -68,23 +75,26 @@ Experience analyzing operational data with PostgreSQL and building Power BI dash
 ### ⚡ Energy and automation
 Interested in combining data-driven methods with sensors, control systems, and energy-management applications.
 
-*More project repositories and reproducible demos will be linked here as they are published.*
+*The flood project includes source code, split manifests, and saved evaluation evidence. Other project case studies will be added as they are prepared.*
 
 ## Experience
 
 - **AZENROB** — AI engineering and operational data analytics
 - **Azercosmos** — AI engineering internship focused on satellite imagery and geospatial data
-- **AzFiberNet** — Data analysis internship using PostgreSQL and Power BI
 
 ## Education & certification
 
 - **MSc, Machine Learning** — Baku Engineering University
 - **BSc, Process Automation Engineering** — Baku Higher Oil School
-- **Machine Learning Specialization** — Stanford University & DeepLearning.AI
-- **Huawei Certified ICT Associate (HCIA) — Artificial Intelligence**
+- **Supervised Machine Learning — Course Completion** — Stanford University & DeepLearning.AI
+- **HCIA — Artificial Intelligence V3.0 — Course Completion** — Huawei
 
 ---
 
 <p align="center">
   <em>Learning continuously. Building thoughtfully. Measuring what matters.</em>
 </p>
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/tariyelbadalzade/)

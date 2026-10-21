@@ -1,0 +1,50 @@
+# config.yaml
+
+# ── Paths ────────────────────────────────────────────────────────────────────
+data_dir:       data/sen1floods11
+split_dir:      data/splits
+checkpoint_dir: models/checkpoints
+checkpoint:     models/checkpoints/best_model.pth
+output_dir:     outputs
+
+# ── Model architecture ───────────────────────────────────────────────────────
+in_channels: 2
+base_ch:     32
+dropout:     0.3
+
+# ── Training hyperparameters ─────────────────────────────────────────────────
+seed:                    42
+epochs:                  100
+batch_size:              4
+num_workers:             0
+lr:                      0.0001
+weight_decay:            0.0001
+flood_weight:            5.0
+early_stopping_patience: 20
+train_subset: ~
+
+# ── Inference / segmentation ─────────────────────────────────────────────────
+seg_threshold: 0.5
+
+# ── Road extraction ───────────────────────────────────────────────────────────
+road_types:
+  - motorway
+  - trunk
+  - primary
+  - secondary
+  - tertiary
+  - residential
+  - unclassified
+  - motorway_link
+  - trunk_link
+  - primary_link
+  - secondary_link
+  - tertiary_link
+
+# ── Flood-road overlay ────────────────────────────────────────────────────────
+flood_threshold: 0.10
+soft_penalty:    false
+
+# ── Routing ───────────────────────────────────────────────────────────────────
+algorithm:          dijkstra
+fallback_radius_m:  50.0

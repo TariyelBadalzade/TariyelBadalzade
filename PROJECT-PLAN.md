@@ -1,6 +1,6 @@
 # Proposed project plan
 
-All projects below are proposals, not claims of completed work.
+The flood project now has [published source and saved evaluation evidence](projects/flood-detection/). The analytics and forecasting projects below remain proposals.
 
 ## 1. Operational performance analysis
 
@@ -30,9 +30,9 @@ All projects below are proposals, not claims of completed work.
 
 **Quality checks:** Use rolling validation inside the development period. Create lags without future information. Do not use observed future weather as though it were available in production. Keep the final test period untouched during model selection.
 
-## 3. Flood segmentation from satellite imagery
+## 3. Flood segmentation from satellite imagery — source and saved results published
 
-**Suggested repository:** `satellite-flood-segmentation`
+**Current location:** [projects/flood-detection](projects/flood-detection/). The following describes further improvements.
 
 **Question:** Can a segmentation model identify flooded areas in satellite images from unseen locations or events?
 
@@ -48,6 +48,6 @@ All projects below are proposals, not claims of completed work.
 
 ## Recommended order
 
-Complete the SQL analytics project first, the forecasting project second, and the satellite project third. If your existing satellite work is already shareable and reproducible, start there instead.
+Start by reproducing the published flood experiment in a clean environment and improving its evaluation and visual examples. Then develop the proposed SQL analytics and forecasting projects.
 
 Before adding another project, improve the existing ones: clearer documentation, a useful visual, reproducibility, and a fair evaluation usually provide more value than another unfinished notebook.

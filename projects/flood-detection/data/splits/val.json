@@ -1,0 +1,18 @@
+{
+  "chips": [
+    "data/sen1floods11/S1Hand/Spain_7370579_S1Hand.tif",
+    "data/sen1floods11/S1Hand/Spain_6095801_S1Hand.tif",
+    "data/sen1floods11/S1Hand/Spain_5650136_S1Hand.tif",
+    "data/sen1floods11/S1Hand/Spain_8154154_S1Hand.tif",
+    "data/sen1floods11/S1Hand/Spain_7604243_S1Hand.tif",
+    "data/sen1floods11/S1Hand/Spain_3285448_S1Hand.tif"
+  ],
+  "labels": [
+    "data/sen1floods11/LabelHand/Spain_7370579_LabelHand.tif",
+    "data/sen1floods11/LabelHand/Spain_6095801_LabelHand.tif",
+    "data/sen1floods11/LabelHand/Spain_5650136_LabelHand.tif",
+    "data/sen1floods11/LabelHand/Spain_8154154_LabelHand.tif",
+    "data/sen1floods11/LabelHand/Spain_7604243_LabelHand.tif",
+    "data/sen1floods11/LabelHand/Spain_3285448_LabelHand.tif"
+  ]
+}

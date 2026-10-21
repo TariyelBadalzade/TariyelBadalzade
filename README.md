@@ -93,10 +93,21 @@ A four-page **Power BI** dashboard for subscriber trends, tariff adoption, stati
 
 **Synthetic data — portfolio demonstration.** Geographic weights use public Azerbaijan statistics; customer-level data and business results are fictional.
 
-### ⚡ Energy and automation
-Interested in combining data-driven methods with sensors, control systems, and energy-management applications.
+### ⚡ [Grid Energy — IoT and ML for Energy Management](projects/grid-energy/)
 
-*The flood project includes source and saved evaluation evidence. The Power BI project includes a working report, synthetic datasets, dashboard previews, and documented assumptions.*
+A **Baku Higher Oil School team project** exploring energy-demand forecasting and IoT monitoring for urban and industrial buildings. **My contribution: machine learning and modeling** for the energy-forecasting component.
+
+The team report describes **ARIMA/SARIMA, LSTM, and Random Forest** approaches alongside an **ESP32 / MQTT** monitoring architecture.
+
+<p align="center">
+  <img src="projects/grid-energy/images/team-demonstration.jpg" alt="Grid Energy team presenting the energy-management demonstration" width="480">
+</p>
+
+[Read the project case study](projects/grid-energy/)
+
+Team demonstration and documented approach; measured forecasting results are not included.
+
+*The flood project includes source and saved evaluation evidence. The Power BI project includes a working report, synthetic datasets, dashboard previews, and documented assumptions. Grid Energy includes a team demonstration and a documented forecasting approach.*
 
 ## Experience
 

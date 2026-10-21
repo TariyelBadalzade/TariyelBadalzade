@@ -83,13 +83,6 @@ Interested in combining data-driven methods with sensors, control systems, and e
 - **Machine Learning Specialization** — Stanford University & DeepLearning.AI
 - **Huawei Certified ICT Associate (HCIA) — Artificial Intelligence**
 
-## GitHub activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TariyelBadalzade&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub statistics">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TariyelBadalzade&layout=compact&hide_border=true" alt="Most used languages">
-</p>
-
 ---
 
 <p align="center">

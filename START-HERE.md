@@ -9,3 +9,5 @@ The historical results were checked arithmetically, but a fresh end-to-end run r
 The Power BI case study includes a self-contained PBIX, four report previews, two synthetic 10,000-row CSV tables, geographic allocation inputs, and a validation summary. All subscriber-level values are fictional. See its README for metric definitions, installation requirements, and simulation limitations.
 
 [Grid Energy](projects/grid-energy/) presents the team energy-management project, Tariyel's ML/modeling contribution, the documented forecasting approach, and a team demonstration photo. The case study links to the team report; model training artifacts and measured forecasting results are not included.
+
+[Water Trash Classification](projects/water-trash-classification/) includes retained team code, a portable CNN notebook, a historical webcam screenshot, and a saved validation matrix. Its model/data limitations and third-party reference material are documented in the project README.

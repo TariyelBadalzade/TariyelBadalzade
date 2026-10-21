@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+data/
+*.h5
+*.keras
+labels.txt

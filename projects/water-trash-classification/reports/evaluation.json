@@ -1,0 +1,45 @@
+{
+  "evaluation_kind": "Historical saved notebook validation output; not a fresh run or independent test",
+  "source": "modelling.ipynb, validation confusion-matrix cell",
+  "class_names": "Original directory-to-class mapping unavailable; numeric indices retained",
+  "rows": "true class",
+  "columns": "predicted class",
+  "confusion_matrix": [
+    [
+      281,
+      1,
+      6,
+      7
+    ],
+    [
+      2,
+      199,
+      93,
+      2
+    ],
+    [
+      2,
+      33,
+      248,
+      10
+    ],
+    [
+      4,
+      25,
+      65,
+      202
+    ]
+  ],
+  "samples": 1180,
+  "correct": 930,
+  "accuracy": 0.788135593220339,
+  "training_images_reported": 1318,
+  "validation_images_reported": 1180,
+  "limitations": [
+    "No original dataset or split manifest supplied",
+    "Saved counts do not match the intended 80/20 split; outputs may reflect different runs",
+    "Validation is not an independent test set",
+    "Cannot associate this CNN evaluation with the separate webcam H5 model",
+    "85% accuracy in the written report is not substantiated by this matrix"
+  ]
+}

@@ -109,6 +109,16 @@ Team demonstration and documented approach; measured forecasting results are not
 
 *The flood project includes source and saved evaluation evidence. The Power BI project includes a working report, synthetic datasets, dashboard previews, and documented assumptions. Grid Energy includes a team demonstration and a documented forecasting approach.*
 
+### ♻️ [Water Trash Classification](projects/water-trash-classification/)
+
+A team course project combining **TensorFlow/Keras**, **OpenCV**, and webcam classification with **voice alerts** for a proposed water-cleanup application. Includes a separate CNN experiment and saved validation evidence.
+
+![Webcam waste-classification demonstration](projects/water-trash-classification/images/webcam-demo.jpg)
+
+**Historical validation accuracy: 78.81% across 1,180 images**, calculated from the saved CNN confusion matrix. The webcam screenshot is a separate demonstration; its confidence score is not an accuracy result.
+
+[Explore the project and code](projects/water-trash-classification/) · [Inspect the saved evaluation](projects/water-trash-classification/reports/evaluation.json)
+
 ## Experience
 
 - **AZENROB** — AI engineering and operational data analytics

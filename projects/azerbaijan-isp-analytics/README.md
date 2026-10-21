@@ -8,7 +8,7 @@ A four-page dashboard for exploring subscriber status, tariff mix, static-IP bil
 
 ![Subscriber overview with synthetic data](images/overview.png)
 
-[Download the Power BI report](Azerbaijan_Subscriber_Demo_10000.pbix?raw=true) · [Browse the synthetic data](data/) · [Read the methodology](docs/DATA_METHODOLOGY.md)
+[Read the methodology](docs/DATA_METHODOLOGY.md)
 
 ## Business questions
 
@@ -36,6 +36,10 @@ The report uses DAX measures, a calendar table, Power Query transformations, rel
 
 ![Static-IP subscribers and billing analysis](images/static-ip.png)
 
+### Regional analysis
+
+![Regional filters, map, and synthetic subscriber details](images/regions.png)
+
 ## Model and data grain
 
 | Table | Rows | Grain |
@@ -57,14 +61,11 @@ The billing table covers **500 distinct subscribers × 20 monthly periods**, Mar
 
 These are examples for demonstrating the dashboard, not findings about Azerbaijan's ISP market. The preserved overview card **Toplam Müştərilər** shows 9,209 non-archived subscribers; the tariff page includes all 10,000 subscriber records. The tariff charge card sums assigned monthly plan prices across those records and is not recognized revenue or cash collected. The static-IP charge total spans all 20 billing periods.
 
-## How to open
+## Exploring the report
 
-1. Download `Azerbaijan_Subscriber_Demo_10000.pbix` using the link above or GitHub's **Download raw file** action.
-2. Open it in a current Windows version of Power BI Desktop. The report was verified with Desktop 2.159.883.0.
-3. Explore the four page tabs. In Desktop editing mode, use **Ctrl+click** on navigation buttons to invoke their actions.
-4. Use the date, region, status, and tariff filters to explore the simulation.
+The four page previews above show the report without requiring Power BI Desktop. The interactive report uses date, region, status, and tariff filters; bookmark buttons switch between pages and views. In Desktop editing mode, navigation buttons use **Ctrl+click**.
 
-The CSVs are reference copies; they are not required to open the report. The screenshots let visitors review the design without Power BI Desktop. No Power BI Service publication is needed.
+The report was verified with Windows Power BI Desktop 2.159.883.0. Its data is embedded, with no PostgreSQL connection, credentials, or local CSV path required. No Power BI Service publication is needed.
 
 ## Geographic assumptions and limitations
 
@@ -80,4 +81,4 @@ See [data methodology and public sources](docs/DATA_METHODOLOGY.md) for the full
 
 The saved PBIX was independently decoded to check both 10,000-row tables, unique subscriber IDs, invoice-to-subscriber links, 500 static-IP subscribers with 20 invoices each, 75 administrative units, and all 12 Baku districts. CSV identifiers were compared with the embedded tables. All four pages rendered in Desktop; the model has zero external data sources.
 
-[Validation summary](docs/validation_summary.json) includes the downloadable PBIX checksum. All contact fields are clearly synthetic, IPs use documentation ranges, and no operational credentials are present.
+[Validation summary](docs/validation_summary.json) includes the PBIX checksum. All contact fields are clearly synthetic, IPs use documentation ranges, and no operational credentials are present.

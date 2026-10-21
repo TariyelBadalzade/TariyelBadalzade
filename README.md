@@ -77,7 +77,19 @@ A four-page **Power BI** dashboard for subscriber trends, tariff adoption, stati
 
 ![Azerbaijan ISP analytics — synthetic subscriber overview](projects/azerbaijan-isp-analytics/images/overview.png)
 
-[Explore the case study](projects/azerbaijan-isp-analytics/) · [Download the PBIX](projects/azerbaijan-isp-analytics/Azerbaijan_Subscriber_Demo_10000.pbix?raw=true) · [Read the data assumptions](projects/azerbaijan-isp-analytics/docs/DATA_METHODOLOGY.md)
+**Page 2 — Tariffs**
+
+![Tariff analysis with synthetic data](projects/azerbaijan-isp-analytics/images/tariffs.png)
+
+**Page 3 — Static-IP billing**
+
+![Static-IP subscribers and billing with synthetic data](projects/azerbaijan-isp-analytics/images/static-ip.png)
+
+**Page 4 — Regions**
+
+![Regional analysis and synthetic subscriber details](projects/azerbaijan-isp-analytics/images/regions.png)
+
+[Explore the case study](projects/azerbaijan-isp-analytics/) · [Read the data assumptions](projects/azerbaijan-isp-analytics/docs/DATA_METHODOLOGY.md)
 
 **Synthetic data — portfolio demonstration.** Geographic weights use public Azerbaijan statistics; customer-level data and business results are fictional.
 

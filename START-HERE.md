@@ -8,4 +8,4 @@ The historical results were checked arithmetically, but a fresh end-to-end run r
 
 [PROJECT-PLAN.md](PROJECT-PLAN.md) describes future portfolio work. [PROJECT-README-TEMPLATE.md](PROJECT-README-TEMPLATE.md) is a reusable template, not another completed project.
 
-The Power BI case study includes a self-contained PBIX, three report previews, two synthetic 10,000-row CSV tables, geographic allocation inputs, and a validation summary. All subscriber-level values are fictional. See its README for metric definitions, installation requirements, and simulation limitations.
+The Power BI case study includes a self-contained PBIX, four report previews, two synthetic 10,000-row CSV tables, geographic allocation inputs, and a validation summary. All subscriber-level values are fictional. See its README for metric definitions, installation requirements, and simulation limitations.

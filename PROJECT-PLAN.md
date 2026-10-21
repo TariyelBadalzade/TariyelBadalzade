@@ -1,8 +1,8 @@
 # Proposed project plan
 
-The flood project now has [published source and saved evaluation evidence](projects/flood-detection/). The analytics and forecasting projects below remain proposals.
+The flood project now has [published source and saved evaluation evidence](projects/flood-detection/). The [synthetic Power BI analytics demo](projects/azerbaijan-isp-analytics/) is also published. The SQL-focused extension and forecasting work below remain proposals.
 
-## 1. Operational performance analysis
+## 1. Operational performance analysis — Power BI demo published; SQL extension proposed
 
 **Suggested repository:** `operations-analytics-sql`
 

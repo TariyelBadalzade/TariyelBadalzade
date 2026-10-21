@@ -69,13 +69,22 @@ Scores pool valid pixels from the saved test evaluation. Validation and test bot
 
 Research prototype; generated routes have not been validated for emergency navigation.
 
-### 📊 Operational data analytics
-Experience analyzing operational data with PostgreSQL and building Power BI dashboards to make customer and business information easier to explore.
+### 📊 [Azerbaijan ISP Analytics Dashboard](projects/azerbaijan-isp-analytics/)
+
+A four-page **Power BI** dashboard for subscriber trends, tariff adoption, static-IP billing, and geographic analysis. Built with **DAX**, **Power Query**, a calendar model, and interactive bookmark navigation.
+
+**10,000 synthetic subscribers · 10,000 billing records · 75 administrative units · 12 Baku districts**
+
+![Azerbaijan ISP analytics — synthetic subscriber overview](projects/azerbaijan-isp-analytics/images/overview.png)
+
+[Explore the case study](projects/azerbaijan-isp-analytics/) · [Download the PBIX](projects/azerbaijan-isp-analytics/Azerbaijan_Subscriber_Demo_10000.pbix?raw=true) · [Read the data assumptions](projects/azerbaijan-isp-analytics/docs/DATA_METHODOLOGY.md)
+
+**Synthetic data — portfolio demonstration.** Geographic weights use public Azerbaijan statistics; customer-level data and business results are fictional.
 
 ### ⚡ Energy and automation
 Interested in combining data-driven methods with sensors, control systems, and energy-management applications.
 
-*The flood project includes source code, split manifests, and saved evaluation evidence. Other project case studies will be added as they are prepared.*
+*The flood project includes source and saved evaluation evidence. The Power BI project includes a working report, synthetic datasets, dashboard previews, and documented assumptions.*
 
 ## Experience
 

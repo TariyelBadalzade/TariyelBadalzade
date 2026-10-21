@@ -1,0 +1,76 @@
+﻿region,economic_region,population_thousands,internet_access,rate_imputed,synthetic_subscribers,synthetic_share
+Bakı,Bakı,2356.2,0.985,False,2484,0.2484
+Naxçıvan,Naxçıvan,98.1,0.938,False,98,0.0098
+Babək,Naxçıvan,78.4,0.938,False,79,0.0079
+Culfa,Naxçıvan,48.3,0.938,False,48,0.0048
+Kəngərli,Naxçıvan,34.0,0.938,False,34,0.0034
+Ordubad,Naxçıvan,50.9,0.938,False,51,0.0051
+Sədərək,Naxçıvan,23.4,0.938,False,24,0.0024
+Şahbuz,Naxçıvan,25.3,0.938,False,25,0.0025
+Şərur,Naxçıvan,114.0,0.938,False,114,0.0114
+Sumqayıt,Abşeron-Xızı,428.2,0.941,False,431,0.0431
+Abşeron,Abşeron-Xızı,435.2,0.941,False,438,0.0438
+Xızı,Abşeron-Xızı,16.8,0.941,False,17,0.0017
+Ağsu,Dağlıq Şirvan,81.5,0.878,False,77,0.0077
+İsmayıllı,Dağlıq Şirvan,87.9,0.878,False,83,0.0083
+Qobustan,Dağlıq Şirvan,47.9,0.878,False,45,0.0045
+Şamaxı,Dağlıq Şirvan,107.2,0.878,False,101,0.0101
+Gəncə,Gəncə-Daşkəsən,331.1,0.8909999999999999,False,316,0.0316
+Naftalan,Gəncə-Daşkəsən,8.6,0.8909999999999999,False,8,0.0008
+Daşkəsən,Gəncə-Daşkəsən,33.4,0.8909999999999999,False,32,0.0032
+Goranboy,Gəncə-Daşkəsən,102.8,0.8909999999999999,False,98,0.0098
+Göygöl,Gəncə-Daşkəsən,65.4,0.8909999999999999,False,62,0.0062
+Samux,Gəncə-Daşkəsən,59.1,0.8909999999999999,False,56,0.0056
+Xankəndi,Qarabağ,4.4,0.861,False,4,0.0004
+Ağcabədi,Qarabağ,137.6,0.861,False,127,0.0127
+Ağdam,Qarabağ,176.4,0.861,False,163,0.0163
+Ağdərə,Qarabağ,12.2,0.861,False,11,0.0011
+Bərdə,Qarabağ,158.6,0.861,False,146,0.0146
+Füzuli,Qarabağ,132.2,0.861,False,122,0.0122
+Xocalı,Qarabağ,15.7,0.861,False,14,0.0014
+Xocavənd,Qarabağ,12.5,0.861,False,12,0.0012
+Şuşa,Qarabağ,25.3,0.861,False,23,0.0023
+Tərtər,Qarabağ,76.2,0.861,False,70,0.007
+Ağstafa,Qazax-Tovuz  iqisadi rayonu - cəmi,87.0,0.882,False,82,0.0082
+Gədəbəy,Qazax-Tovuz  iqisadi rayonu - cəmi,101.4,0.882,False,96,0.0096
+Qazax,Qazax-Tovuz  iqisadi rayonu - cəmi,96.7,0.882,False,91,0.0091
+Şəmkir,Qazax-Tovuz  iqisadi rayonu - cəmi,219.1,0.882,False,207,0.0207
+Tovuz,Qazax-Tovuz  iqisadi rayonu - cəmi,178.8,0.882,False,169,0.0169
+Xaçmaz,Quba-Xaçmaz,176.1,0.878,False,166,0.0166
+Quba,Quba-Xaçmaz,172.2,0.878,False,162,0.0162
+Qusar,Quba-Xaçmaz,103.2,0.878,False,97,0.0097
+Siyəzən,Quba-Xaçmaz,42.2,0.878,False,40,0.004
+Şabran,Quba-Xaçmaz,59.1,0.878,False,56,0.0056
+Astara,Lənkəran-Astara,113.6,0.875,False,106,0.0106
+Cəlilabad,Lənkəran-Astara,221.1,0.875,False,207,0.0207
+Lerik,Lənkəran-Astara,87.4,0.875,False,82,0.0082
+Lənkəran,Lənkəran-Astara,228.6,0.875,False,214,0.0214
+Masallı,Lənkəran-Astara,228.7,0.875,False,214,0.0214
+Yardımlı,Lənkəran-Astara,69.9,0.875,False,65,0.0065
+Mingəçevir,Mərkəzi Aran,103.3,0.878,False,97,0.0097
+Ağdaş,Mərkəzi Aran,108.1,0.878,False,102,0.0102
+Göyçay,Mərkəzi Aran,119.7,0.878,False,112,0.0112
+Kürdəmir,Mərkəzi Aran,119.9,0.878,False,113,0.0113
+Ucar,Mərkəzi Aran,85.9,0.878,False,81,0.0081
+Yevlax,Mərkəzi Aran,130.6,0.878,False,123,0.0123
+Zərdab,Mərkəzi Aran,60.1,0.878,False,56,0.0056
+Beyləqan,Mil-Muğan,102.6,0.872,False,96,0.0096
+İmişli,Mil-Muğan,133.0,0.872,False,124,0.0124
+Saatlı,Mil-Muğan,111.8,0.872,False,104,0.0104
+Sabirabad,Mil-Muğan,183.1,0.872,False,171,0.0171
+Balakən,Şəki-Zaqatala,101.3,0.873,False,95,0.0095
+Qax,Şəki-Zaqatala,58.5,0.873,False,55,0.0055
+Qəbələ,Şəki-Zaqatala,110.1,0.873,False,103,0.0103
+Oğuz,Şəki-Zaqatala,44.9,0.873,False,42,0.0042
+Şəki,Şəki-Zaqatala,185.2,0.873,False,173,0.0173
+Zaqatala,Şəki-Zaqatala,130.9,0.873,False,122,0.0122
+Cəbrayıl,Şərqi Zəngəzur,73.8,0.908,True,72,0.0072
+Kəlbəcər,Şərqi Zəngəzur,72.8,0.908,True,71,0.0071
+Qubadlı,Şərqi Zəngəzur,37.4,0.908,True,36,0.0036
+Laçın,Şərqi Zəngəzur,76.7,0.908,True,75,0.0075
+Zəngilan,Şərqi Zəngəzur,43.0,0.908,True,42,0.0042
+Şirvan,Şirvan-Salyan,86.0,0.875,False,81,0.0081
+Biləsuvar,Şirvan-Salyan,108.2,0.875,False,101,0.0101
+Hacıqabul,Şirvan-Salyan,76.8,0.875,False,72,0.0072
+Neftçala,Şirvan-Salyan,87.9,0.875,False,82,0.0082
+Salyan,Şirvan-Salyan,140.9,0.875,False,132,0.0132

@@ -1,0 +1,35 @@
+{
+  "subscriber_rows": 10000,
+  "billing_rows": 10000,
+  "distinct_static_subscribers": 500,
+  "administrative_units": 75,
+  "baku_subscribers": 2484,
+  "baku_districts": 12,
+  "status_counts": {
+    "Active": 8596,
+    "Archived": 791,
+    "Deactive": 613
+  },
+  "tariff_counts": {
+    "Ev 100": 5022,
+    "Ev 150": 2208,
+    "Ev 750": 205,
+    "Ev 250": 1412,
+    "Biznes 100": 243,
+    "Ev 500": 575,
+    "Biznes 300": 178,
+    "Ev 1000": 114,
+    "Biznes 500": 43
+  },
+  "business_subscribers": 464,
+  "saved_pbix_verification": {
+    "passed": true,
+    "subscriber_rows": 10000,
+    "billing_rows": 10000,
+    "static_subscriber_count": 500,
+    "external_model_sources": 0,
+    "all_four_pages_rendered": true,
+    "csv_identifiers_match_embedded_tables": true,
+    "pbix_sha256": "4baa146b40ec451dd400a3977f224402b28f25fe617264377b656bbf2bdd7583"
+  }
+}

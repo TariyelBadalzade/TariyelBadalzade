@@ -8,9 +8,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TariyelBadalzade">
-    <img src="https://komarev.com/ghpvc/?username=TariyelBadalzade&style=flat&color=2563eb" alt="Profile views">
-  </a>
   <img src="https://img.shields.io/badge/Focus-Machine%20Learning-2563eb?style=flat" alt="Focus: Machine Learning">
   <img src="https://img.shields.io/badge/Location-Azerbaijan-64748b?style=flat" alt="Location: Azerbaijan">
 </p>

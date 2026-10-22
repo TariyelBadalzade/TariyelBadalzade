@@ -23,6 +23,24 @@ I'm an AI Engineer at **AZENROB** and an MSc student in **Machine Learning at Ba
 - ⚙️ Interested in industrial systems, automation, and energy analytics
 - 🌱 Focused on building reliable, well-documented, reproducible projects
 
+## AI & data science certificates
+
+- **[Supervised Machine Learning: Regression and Classification](https://www.coursera.org/verify/KWV6FKPOICQ5)** — **Stanford University & DeepLearning.AI**, via Coursera. Completed January 20, 2026.
+- **[HCIA–AI — Artificial Intelligence](certificates/huawei-hcia-ai.png)** — **Huawei**. [View certificate evidence](certificates/).
+
+<details>
+<summary>View my AI and machine learning certificates</summary>
+
+**Stanford University & DeepLearning.AI — Supervised Machine Learning**
+
+[![Supervised Machine Learning: Regression and Classification certificate awarded to Tariyel Badalzade](certificates/supervised-machine-learning.png)](https://www.coursera.org/verify/KWV6FKPOICQ5)
+
+**Huawei — HCIA–AI**
+
+![Huawei HCIA–AI certificate awarded to Tariyel Badalzade](certificates/huawei-hcia-ai.png)
+
+</details>
+
 ## Tech stack
 
 <p>
@@ -130,12 +148,10 @@ A team course project combining **TensorFlow/Keras**, **OpenCV**, and webcam cla
 - **AZENROB** — AI engineering and operational data analytics
 - **Azercosmos** — AI engineering internship focused on satellite imagery and geospatial data
 
-## Education & certification
+## Education
 
 - **MSc, Machine Learning** — Baku Engineering University
 - **BSc, Process Automation Engineering** — Baku Higher Oil School
-- **Supervised Machine Learning — Course Completion** — Stanford University & DeepLearning.AI
-- **HCIA — Artificial Intelligence V3.0 — Course Completion** — Huawei
 
 ---
 

@@ -25,8 +25,16 @@ I'm an AI Engineer at **AZENROB** and an MSc student in **Machine Learning at Ba
 
 ## AI & data science certificates
 
-- **[Supervised Machine Learning: Regression and Classification](https://www.coursera.org/verify/KWV6FKPOICQ5)** — **Stanford University & DeepLearning.AI**, via Coursera. Completed January 20, 2026.
-- **[HCIA–AI — Artificial Intelligence](certificates/huawei-hcia-ai.png)** — **Huawei**. [View certificate evidence](certificates/).
+- **[Python for Data Science, AI & Development](https://www.coursera.org/account/accomplishments/records/6BEL28W7XNM7)** — **IBM**, via Coursera · September 2026.
+- **[Tools for Data Science](https://www.coursera.org/account/accomplishments/records/LFA0VMGWPTNI)** — **IBM**, via Coursera · July 2026.
+- **[Supervised Machine Learning: Regression and Classification](https://www.coursera.org/verify/KWV6FKPOICQ5)** — **Stanford University & DeepLearning.AI**, via Coursera · January 2026.
+- **[Huawei Certified ICT Associate – Artificial Intelligence V3.0](certificates/huawei-hcia-ai.png)** — **Huawei** · Issued December 2023; certificate valid through December 8, 2026.
+
+**Related engineering training:** Overview of IoT Technologies — Huawei (October 2024); RoboCode Robotik Kodlama Düşərgəsi — Saha Robotik (April 2024, ROS2).
+
+**AI research recognition:** INFOTECH-2025 — **2nd Place**, Baku Higher Oil School (April 2025); INFOTECH-2023 — research conference participation with Python and AI work (April 2023).
+
+[Credential details and evidence](certificates/) · [Full LinkedIn certification list](https://www.linkedin.com/in/tariyelbadalzade/details/certifications/)
 
 <details>
 <summary>View my AI and machine learning certificates</summary>

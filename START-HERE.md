@@ -2,7 +2,7 @@
 
 The profile README introduces Tariyel Badalzade and links to the published [flood detection project](projects/flood-detection/) and [Azerbaijan ISP Analytics Dashboard](projects/azerbaijan-isp-analytics/).
 
-Start with the project README for the problem, results, code layout, setup, and limitations. The repository includes core Python source, original split memberships, configuration, and saved evaluation evidence. Raw data, model checkpoints, personal documents, and local environments are excluded.
+Start with the flood project README for the problem, implementation, selected Spain and Baku image walkthroughs, results, code layout, setup, and limitations. The image captions distinguish historical predictions from ground truth, and the image provenance guide records their sources. The repository includes core Python source, original split memberships, configuration, and saved evaluation evidence. Raw data, model checkpoints, personal documents, and local environments are excluded.
 
 The historical results were checked arithmetically, but a fresh end-to-end run remains to be completed. See the project methods document for the exact verification scope.
 

@@ -29,6 +29,14 @@ Roads outside the raster footprint and SAR nodata regions can be classified as d
 
 The existing map visualization applies a logarithmic conversion even though the expected SAR input is already dB. Its background contrast should be corrected before using it for qualitative comparisons; the portfolio chart is generated directly from numerical evaluation evidence instead.
 
+## Qualitative figures
+
+The portfolio now includes three unchanged PNG figures extracted from `Tariyel_Badalzade_Diploma_Work.docx`: a Spain routing example (`Spain_7370579_S1Hand`), a Spain flood/road overlay (`Spain_8565131_S1Hand`), and a Baku application (`Baku_April2026_S1_chip_006`). Their captions follow the chip IDs and visible annotations in the images. Dissertation prose and figure descriptions are not used to assert additional routing successes, baseline comparisons, or measured generalization.
+
+These are historical visualization outputs, not fresh inference runs or paired ground-truth/prediction comparisons. The local `batch_show_results.py` uses direct percentile stretching of SAR channels and a road threshold of 0.30, whereas the published pipeline configuration uses 0.10. Exact configuration and checkpoint provenance for each figure are unavailable. The logarithmic-display issue noted above concerns the retained `visualize.py`, not proof that every historical multi-panel figure was generated with that path.
+
+Blue masks may include permanent water. No independent labels or quantitative evaluation for the Baku, Valencia, or Dubai application images were supplied with the figures. The figures do not establish emergency route safety. Image sources and checksums are recorded in [image provenance](../images/README.md).
+
 ## Publication checks
 
 All included Python files were parsed for syntax. Split counts, disjoint chip paths, evaluation chip membership, and aggregate confusion-count arithmetic were checked. Raw data and checkpoints are excluded. Dependency installation, training, inference, live OSM requests, and full routing execution remain unverified. The original local virtual environment could not start because it references a missing interpreter on another user path.

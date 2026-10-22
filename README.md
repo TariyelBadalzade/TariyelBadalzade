@@ -52,17 +52,26 @@ I'm an AI Engineer at **AZENROB** and an MSc student in **Machine Learning at Ba
 
 ### 🛰️ [Flood detection and route planning](projects/flood-detection/)
 
-From satellite pixels to road-network analysis: a **PyTorch U-Net** segments flooding in two-band Sentinel-1 SAR imagery, then a geospatial pipeline overlays predictions on **OpenStreetMap** roads for **Dijkstra / A\*** route exploration.
+My bachelor's dissertation connects **flood detection from satellite imagery** with **road-network route planning**. I built a Python pipeline that takes two-band **Sentinel-1 SAR** imagery, predicts a pixel-level water/flood mask with a **PyTorch U-Net**, and overlays the result on **OpenStreetMap** roads to explore routes with **Dijkstra / A\***.
+
+![Spain example showing VV and VH satellite imagery, predicted flooding, road classifications, and a generated route](projects/flood-detection/images/spain-routing-overview.png)
+
+*From image to map: VV/VH radar inputs → predicted mask in blue → road exposure in green/red → a generated route in yellow. Historical project output; the route is illustrative.*
+
+**What I worked on**
+
+- **Flood segmentation:** two-channel U-Net, training-only normalization, augmentation, flood-weighted sampling, and focal + Dice loss.
+- **Geospatial integration:** georeferenced raster predictions, road buffering in metres, and flood-overlap estimates for each road edge.
+- **Route exploration:** origin/destination matching, flood-aware edge costs, Dijkstra/A* search, and GeoTIFF / GeoJSON exports.
+- **Evaluation and visual analysis:** saved test results from Spain and Sri Lanka, plus qualitative application examples from the dissertation, including Baku.
 
 | Flood IoU | F1 / Dice | Precision | Recall | Test chips |
 | ---: | ---: | ---: | ---: | ---: |
 | **0.6766** | **0.8071** | 0.7770 | 0.8396 | 66 |
 
-Scores pool valid pixels from the saved test evaluation. Validation and test both include Spain; the project documents this evaluation limitation.
+Scores pool valid pixels from the saved test evaluation. Validation and test both include Spain; the project documents this evaluation limitation. Additional application images are qualitative examples and do not add to these test scores.
 
-[Explore the code and setup](projects/flood-detection/) · [Inspect the evaluation](projects/flood-detection/reports/evaluation_results.json) · [Read the method and limitations](projects/flood-detection/reports/METHODS.md)
-
-![Flood segmentation evaluation](projects/flood-detection/reports/figures/evaluation.svg)
+[Read the full case study and image walkthrough](projects/flood-detection/) · [Explore the code and setup](projects/flood-detection/#included-files) · [Inspect the evaluation](projects/flood-detection/reports/evaluation_results.json) · [Read the method and limitations](projects/flood-detection/reports/METHODS.md)
 
 Research prototype; generated routes have not been validated for emergency navigation.
 

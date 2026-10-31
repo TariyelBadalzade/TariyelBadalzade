@@ -87,7 +87,7 @@ The project uses distinct analytical tables at deliberately different grains:
 
 | Table | Rows / grain | Main role |
 | --- | --- | --- |
-| `butun_musteriler` | 10,000 rows; one row per subscriber | Customer/account status, tariff, location, subscription attributes |
+| `customers` | 10,000 rows; one row per subscriber | Customer/account status, tariff, location, subscription attributes |
 | `static_ip` | 10,000 rows; one monthly invoice per static-IP subscriber per period | Add-on billing records and charge analysis |
 | `Regions` | 75 administrative units | Regional naming and mapping |
 | `Rayons` | 12 Baku districts | District-level reporting |
